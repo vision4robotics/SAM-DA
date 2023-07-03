@@ -18,9 +18,9 @@ domain adaptability of SAM-DA for nighttime UAV tracking. Especially, compared t
 performance with fewer raw nighttime images, i.e., the fewer-better training. This economized training approach facilitates the quick
 validation and deployment of algorithms for UAV.
 ## Framework
-![Framework](https://github.com/vision4robotics/SAM-DA/tree/main/assets/framework.png)
+![Framework](https://github.com/vision4robotics/SAM-DA/blob/main/assets/framework.png)
 ## Visualization of one-to-many generation
-![One-to-many generation](https://github.com/vision4robotics/SAM-DA/tree/main/assets/one-to-many_generation.png)
+![One-to-many generation](https://github.com/vision4robotics/SAM-DA/blob/main/assets/one-to-many_generation.png)
 ## Installation
 
 The code requires `python>=3.8`, as well as `pytorch>=1.7` and `torchvision>=0.8`. Please follow the instructions [here](https://pytorch.org/get-started/locally/) to install both PyTorch and TorchVision dependencies. Installing both PyTorch and TorchVision with CUDA support is strongly recommended.
