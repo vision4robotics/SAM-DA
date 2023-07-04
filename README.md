@@ -3,6 +3,7 @@
 **[Vision4robotics](https://vision4robotics.github.io/)**
 
 Liangliang Yao†, Haobo Zuo†, Guangze Zheng†, Changhong Fu*, Jia Pan
+† Equal contribution. * Corresponding author.
 
 ## Abstract
 Domain adaptation (DA) has demonstrated significant promise for real-time nighttime unmanned aerial vehicle (UAV)
@@ -16,7 +17,7 @@ domain training samples from every single raw nighttime image. This novel one-to
 target domain training sample for DA. Comprehensive experiments on extensive nighttime UAV videos prove the robustness and
 domain adaptability of SAM-DA for nighttime UAV tracking. Especially, compared to the SOTA DA, SAM-DA can achieve better
 performance with fewer raw nighttime images, i.e., the fewer-better training. This economized training approach facilitates the quick
-validation and deployment of algorithms for UAV.
+validation and deployment of algorithms for UAVs.
 ## Framework
 ![Framework](https://github.com/vision4robotics/SAM-DA/blob/main/assets/framework.png)
 ## Visualization of one-to-many generation
@@ -38,8 +39,9 @@ bash install.sh
 ```
 bash swell.sh
 ```
+> ⚠️ warning: A huge passport is necessary.
 
-Then 
+Then the day-night domain adaptation is coming soon.
 ## <a name="Models"></a>Model Checkpoints
 
 Three model versions of the model are available with different backbone sizes. 
@@ -49,3 +51,44 @@ Click the links below to download the checkpoint for the corresponding model nam
 * `vit_l`: [ViT-L SAM model.](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth)
 * `vit_b`: [ViT-B SAM model.](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth)
 
+# License
+The model is licensed under the Apache License 2.0 license.
+
+# Citations
+Please consider citing the related paper(s) in your publications if it helps your research.
+```
+@article{kirillov2023segment,
+  title={{SAM-DA: UAV Tracks Anything at Night with SAM-Powered Domain Adaptation}},
+  author={Yao, Liangliang and Zuo, Haobo and Zheng, Guangze and Fu, Changhong and Pan, Jia},
+  journal={arXiv preprint arXiv:2307.01024},
+  year={2023}
+  pages={1-12}
+}
+
+@article{kirillov2023segment,
+  title={{Segment Anything}},
+  author={Kirillov, Alexander and Mintun, Eric and Ravi, Nikhila and Mao, Hanzi and Rolland, Chloe and Gustafson, Laura and Xiao, Tete and Whitehead, Spencer and Berg, Alexander C and Lo, Wan-Yen and others},
+  journal={arXiv preprint arXiv:2304.02643},
+  year={2023}
+  pages={1-30}
+}
+
+@Inproceedings{Ye2022CVPR,
+
+title={{Unsupervised Domain Adaptation for Nighttime Aerial Tracking}},
+
+author={Ye, Junjie and Fu, Changhong and Zheng, Guangze and Paudel, Danda Pani and Chen, Guang},
+
+booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+
+year={2022},
+
+pages={1-10}
+
+}
+```
+# Acknowledgments
+We sincerely thank the contribution of following repos: [SiamBAN](https://github.com/hqucv/siamban), and [UDAT](https://github.com/vision4robotics/UDAT).
+
+# Contact
+If you have any questions, please contact Liangliang Yao at [1951018@tongji.edu.cn](mailto:1951018@tongji.edu.cn) or Changhong Fu at [changhongfu@tongji.edu.cn](mailto:changhongfu@tongji.edu.cn).
