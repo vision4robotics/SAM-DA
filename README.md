@@ -60,7 +60,7 @@ bash swell.sh
 
 * **SAM-DA** can achieve better performance on fewer raw images with quicker training.
   
-| Method | Training data | Images | Propotion | Training$^1$ | AUC (NUT-L) |
+| Method | Training data | Images | Propotion | Training | AUC (NUT-L) |
 |  ----  | ----  |  :----:  | :----:  | :----:  |  :----:  | ----  |  ----  | ----  | ----  |
 |  Baseline  | NAT2021-*train*  | 276k | 100%  | 12h  | 0.377  | 
 |  **SAM-DA**  | SAM-NAT-N | 28k | 10%  | **2.4h**  | 0.411  | 
@@ -70,7 +70,7 @@ bash swell.sh
 
 <img src="/assets/suc_data.png" width = "600"  />
 
-> 1. Training duration on a single A100 GPU.
+> Training duration on a single A100 GPU.
 
 
 
