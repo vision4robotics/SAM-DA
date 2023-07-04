@@ -208,7 +208,7 @@ def run_sequence(sub_dir, sam, args, num_gpu=4):
         bbox = model.generate_bbox(image)
         # end_time = time.time()
         # run_time = end_time - start_time
-        # print("程序运行时间：", run_time, "秒")
+        # print("Run time：", run_time, "s")
         # print(bbox)
         base = os.path.basename(img_file)
         base = os.path.splitext(base)[0]
