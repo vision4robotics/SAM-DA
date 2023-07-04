@@ -1,11 +1,10 @@
 import json
 import re
 
-# 打开 JSON 文件
 char_at_position = []
 for i in range(4):
     with open('./result/'+str(i)+'.json') as file:
-        # 读取整个文件内容
+        # read the json file
         content = file.read()
         pattern = r'\}(\r?\n)\{'
         content = re.sub(pattern,'};\n{',content)
