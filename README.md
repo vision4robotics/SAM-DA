@@ -124,7 +124,7 @@ pages={1-10}
 }
 ```
 # Acknowledgments
-We sincerely thank the contribution of following repos:[SAM](https://github.com/facebookresearch/segment-anything), [SiamBAN](https://github.com/hqucv/siamban), and [UDAT](https://github.com/vision4robotics/UDAT).
+We sincerely thank the contribution of following repos: [SAM](https://github.com/facebookresearch/segment-anything), [SiamBAN](https://github.com/hqucv/siamban), and [UDAT](https://github.com/vision4robotics/UDAT).
 
 # Contact
 If you have any questions, please contact Liangliang Yao at [1951018@tongji.edu.cn](mailto:1951018@tongji.edu.cn) or Changhong Fu at [changhongfu@tongji.edu.cn](mailto:changhongfu@tongji.edu.cn).
