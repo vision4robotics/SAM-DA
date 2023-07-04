@@ -27,9 +27,9 @@ import torch.multiprocessing as mp
 parser = argparse.ArgumentParser(description='siamese tracking')
 parser.add_argument('--dataset', type=str,default='NUT_L',
         help='datasets')
-parser.add_argument('--datasest_root', default='path/to/your/dataset', type=str,      
+parser.add_argument('--datasest_root', default='./track/BAN/test_dataset', type=str,      
         help='dataset root path')
-parser.add_argument('--config', default=os.getcwd() + '/experiments/udatban_r50_l234/config.yaml', type=str,
+parser.add_argument('--config', default=os.getcwd() + './track/BAN/experiments/udatban_r50_l234/config.yaml', type=str,
         help='config file')
 parser.add_argument('--snapshot', default='sam-da-track-b', type=str,        
         help='snapshot of models to eval')
