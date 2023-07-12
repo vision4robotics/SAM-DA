@@ -1,4 +1,5 @@
 # SAM-DA: UAV Tracks Anything at Night with SAM-Powered Domain Adaptation
+This is the official code for the paper "SAM-DA: UAV Tracks Anything at Night with SAM-Powered Domain Adaptation".
 
 **[Vision4robotics](https://vision4robotics.github.io/)**
 
