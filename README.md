@@ -17,13 +17,19 @@ Liangliang Yao†, Haobo Zuo†, Guangze Zheng†, Changhong Fu*, Jia Pan
 * Interactive demo on your video with your instruction.
 ## 🛠️ Installation
 
-The code requires `python>=3.8`, as well as `pytorch>=1.7` and `torchvision>=0.8`. 
+This code has been tested on Ubuntu 18.04, Python 3.8.3, Pytorch 1.13.1, and CUDA 11.6. Please install related libraries before running this code:
 
 Install Segment Anything:
 
 ```
 bash install.sh
 ```
+Install SAM-DA-Track:
+
+```
+pip install -r requirements.txt
+```
+
 ## 😀 Getting started
 ### Test SAM-DA
 * Download a **model checkpoint** below and put it in `./tracker/BAN/snapshot`.
