@@ -65,7 +65,9 @@ python tools/eval.py
    ```
    bash swell.sh
    ```
-    > ⚠️ warning: A huge passport is necessary for about ~G data.
+    > ⚠️ warning: A huge passport is necessary for saving data.
+    > Training jsons [Baidu](https://pan.baidu.com/s/1pRwq_bf-Eu4CGID2u3Plog?pwd=cbob). 
+
 * Prepare daytime dataset [VID] and [GOT-10K].
   1. Download [VID](https://image-net.org/challenges/LSVRC/2017/) and [GOT-10K](http://got-10k.aitestunion.com/downloads) and put them in `./tracker/BAN/train_dataset/vid` and `./tracker/BAN/train_dataset/got10k`, respectively.
   2. Crop data following the instruction for [VID](./tracker/BAN/train_dataset/vid/readme.md) and [GOT-10k](./tracker/BAN/train_dataset/got10k/readme.md).
