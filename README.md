@@ -41,7 +41,7 @@ pip install -r requirements.txt
   |  SAM-NAT-T (tiny) | `sam-da-track-t` |  [Baidu](https://pan.baidu.com/s/11LrJwoz--AO3UzXavwa_GA?pwd=5qkj)  | [Google](https://drive.google.com/file/d/10Y9td4CJt4DqbcvCCLVUkCEx67MyilYC/view?usp=sharing)  | [Hugging face](https://huggingface.co/George-Zhuang/SAM-DA/resolve/main/sam-da-track-t.pth)   | 
   |  SAM-NAT-N (nano) | `sam-da-track-n` |  [Baidu](https://pan.baidu.com/s/1h1OROv17qINJmGU7zR4LTA?pwd=ujag)  | [Google](https://drive.google.com/file/d/1xR5i2XqHoDRoBEXH7O4ko5JZok0EPHTF/view?usp=sharing)  | [Hugging face](https://huggingface.co/George-Zhuang/SAM-DA/resolve/main/sam-da-track-n.pth)  | 
 
-* Download **[NUT-L](https://pan.baidu.com/s/1KWYp5UHflFuaPiWLFZvaKw?pwd=t4tr)** dataset and put it in `./tracker/BAN/test_dataset`.
+* Download [NUT-L](https://pan.baidu.com/s/1KWYp5UHflFuaPiWLFZvaKw?pwd=t4tr) dataset and put it in `./tracker/BAN/test_dataset`.
 * Test and evalute on NUT-L with `default` settings. 
 
 ```bash
