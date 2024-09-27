@@ -6,10 +6,9 @@ Changhong Fu*, Liangliang Yao, Haobo Zuo, Guangze Zheng, Jia Pan
 
 **[Vision4robotics](https://vision4robotics.github.io/)**
 
-## 📅 News
-* Video demos for more night scenes with SAM-DA.
-* Test with your own videos.
-* Interactive demo on your video with your instruction.
+## 📢 News
+* SAM-DA is accepted by IEEE ICARM.
+* The paper “SAM-DA: UAV Tracks Anything at Night with SAM-Powered Domain Adaptation” is awarded the Toshio Fukuda Best Paper Award in Mechatronics of ICARM 2024!
 
 ## 🏗️ Framework
 ![Framework](https://github.com/vision4robotics/SAM-DA/blob/main/assets/framework.png)
