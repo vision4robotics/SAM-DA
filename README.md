@@ -7,7 +7,7 @@ Changhong Fu*, Liangliang Yao, Haobo Zuo, Guangze Zheng, Jia Pan
 **[Vision4robotics](https://vision4robotics.github.io/)**
 
 ## 📢 News
-* SAM-DA is accepted by IEEE ICARM.
+* SAM-DA is accepted by [IEEE ICARM](http://www.ieee-arm.org/).
 * The paper “SAM-DA: UAV Tracks Anything at Night with SAM-Powered Domain Adaptation” is awarded the Toshio Fukuda Best Paper Award in Mechatronics of ICARM 2024!
 
 ## 🏗️ Framework
