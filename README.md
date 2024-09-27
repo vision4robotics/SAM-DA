@@ -1,8 +1,8 @@
 # SAM-DA: UAV Tracks Anything at Night with SAM-Powered Domain Adaptation
 
-Liangliang Yao†, Haobo Zuo†, Guangze Zheng†, Changhong Fu*, Jia Pan
+Changhong Fu*, Liangliang Yao, Haobo Zuo, Guangze Zheng, Jia Pan
 
-† Equal contribution. * Corresponding author.
+ * Corresponding author.
 
 **[Vision4robotics](https://vision4robotics.github.io/)**
 
