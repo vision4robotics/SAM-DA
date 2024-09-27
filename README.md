@@ -111,12 +111,12 @@ The model is licensed under the Apache License 2.0 license.
 # Citations
 Please consider citing the related paper(s) in your publications if it helps your research.
 ```
-@article{Yao2023SAMDA,
+@Inproceedings{Yao2023SAMDA,
   title={{SAM-DA: UAV Tracks Anything at Night with SAM-Powered Domain Adaptation}},
-  author={Yao, Liangliang and Zuo, Haobo and Zheng, Guangze and Fu, Changhong and Pan, Jia},
-  journal={arXiv preprint arXiv:2307.01024},
-  year={2023}
-  pages={1-12}
+  author={Fu, Changhong and Yao, Liangliang and Zuo, Haobo and Zheng, Guangze and Pan, Jia},
+  booktitle={Proceedings of the IEEE  International Conference on Advanced Robotics and Mechatronics (ICARM)},
+  year={2024}
+  pages={1-8}
 }
 @article{kirillov2023segment,
   title={{Segment Anything}},
