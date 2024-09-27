@@ -2,7 +2,7 @@
 
 Changhong Fu*, Liangliang Yao, Haobo Zuo, Guangze Zheng, Jia Pan
 
- * * Corresponding author.
+* \* corresponding author. 
 
 **[Vision4robotics](https://vision4robotics.github.io/)**
 
