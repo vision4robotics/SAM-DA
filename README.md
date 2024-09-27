@@ -6,15 +6,16 @@ Changhong Fu*, Liangliang Yao, Haobo Zuo, Guangze Zheng, Jia Pan
 
 **[Vision4robotics](https://vision4robotics.github.io/)**
 
+## 📅 News
+* Video demos for more night scenes with SAM-DA.
+* Test with your own videos.
+* Interactive demo on your video with your instruction.
+
 ## 🏗️ Framework
 ![Framework](https://github.com/vision4robotics/SAM-DA/blob/main/assets/framework.png)
 ## 👀 Visualization of SAM-DA
 ![One-to-many generation](https://github.com/vision4robotics/SAM-DA/blob/main/assets/one-to-many_generation.png)
 
-## 📅 Todo
-* Video demos for more night scenes with SAM-DA.
-* Test with your own videos.
-* Interactive demo on your video with your instruction.
 ## 🛠️ Installation
 
 This code has been tested on Ubuntu 18.04, Python 3.8.3, Pytorch 1.13.1, and CUDA 11.6. Please install related libraries before running this code:
